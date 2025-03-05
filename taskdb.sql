@@ -36,7 +36,7 @@ CREATE TABLE `tasks` (
 --
 
 LOCK TABLES `tasks` WRITE;
-/*!40000 ALTER TABLE `tasks` DISABLE KEYS */;
+/*!40000 ALTER TABLE `zadachki` DISABLE KEYS */;
 INSERT INTO `tasks` VALUES (27,'Рассылка в телеге \"Skibidi Ronaldo\"','2024-12-31','Высокий'),(30,'Рекламная компания \"Chicken Picken\"','2024-12-28','Низкий');
 /*!40000 ALTER TABLE `tasks` ENABLE KEYS */;
 UNLOCK TABLES;
